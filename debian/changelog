@@ -1,0 +1,128 @@
+node-regexpu-core (4.7.1-3) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 29 Aug 2021 20:45:29 +0200
+
+node-regexpu-core (4.7.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Use dh-sequence-nodejs
+  * Declare compliance with policy 4.5.1
+  * Disable one minor test (fixes debci)
+
+ -- Yadd <yadd@debian.org>  Fri, 12 Feb 2021 06:15:19 +0100
+
+node-regexpu-core (4.7.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Pirate Praveen ]
+  * Update minimum version of node-unicode-match-property-value-ecmascript
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * No more build "data" directory to avoid unicode bugs (see
+    https://github.com/mathiasbynens/regexpu-core/issues/44#issuecomment-699769362)
+    (Closes: #963374)
+  * New upstream version 4.7.1
+  * Update test module
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 28 Sep 2020 10:28:53 +0200
+
+node-regexpu-core (4.7.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump std-vers to 4.5.0.
+  * Switch to unicode 13.0.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 15 Mar 2020 11:24:38 +0100
+
+node-regexpu-core (4.6.0+ds-2) unstable; urgency=medium
+
+  * Team upload
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Embed regexpu-fixtures for tests
+  * Update copyright
+  * Use pkg-js-tools auto install
+  * Require node-regjsparser ≥ 0.6.2+ds-2 (fixes test)
+  * Enable upstream test
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 04 Jan 2020 23:40:50 +0100
+
+node-regexpu-core (4.6.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Install files in the new standard location /usr/share/nodejs.
+  * Bump std-vers to 4.4.1.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 19 Oct 2019 22:47:45 +0200
+
+node-regexpu-core (4.5.5+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop patch for unicode 12.1.0 : upstream did the same.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 15 Aug 2019 12:37:48 +0200
+
+node-regexpu-core (4.5.4+ds-2) unstable; urgency=medium
+
+  * Use unicode-12.1.0 instead of unicode-12.0.0 (Closes: #934496).
+  * Bump dh compat to 12 and drop d/compat.
+  * Drop unneeded versioning of deps and b-deps.
+  * Bump std-vers to 4.4.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 11 Aug 2019 21:27:37 +0200
+
+node-regexpu-core (4.5.4+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump std-vers to 4.3.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 16 Apr 2019 13:19:14 +0200
+
+node-regexpu-core (4.4.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Update deps.
+    - Bump std-vers to 4.2.1.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 08 Dec 2018 09:01:47 +0100
+
+node-regexpu-core (4.2.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.1.5.
+    - Use salsa in Vcs-* fields.
+    - Use my debian.org mail address.
+    - Update dates in d/copyright.
+  * Update deps versions to switch to unicode 11.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 30 Jul 2018 17:15:20 +0200
+
+node-regexpu-core (4.1.3+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 28 Oct 2017 08:52:57 +0200
+
+node-regexpu-core (4.1.2+ds-2) unstable; urgency=medium
+
+  * Bump std-ver to 4.1.1.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 10 Oct 2017 20:52:14 +0200
+
+node-regexpu-core (4.1.2+ds-1) unstable; urgency=low
+
+  * Initial release (Closes: #874794)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 09 Sep 2017 18:24:36 +0200

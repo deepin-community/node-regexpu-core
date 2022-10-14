@@ -1,0 +1,70 @@
+{
+  "_from": "regexpu-fixtures@2.1.4",
+  "_id": "regexpu-fixtures@2.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-pnd1STgXgecmxoZhBMJkY23PVVLiLkr/1iC8uDkgeVcSTilLiX+zhVsnCCMvdQ6RnWdlQJ9VieR8DLKEwZCpRg==",
+  "_location": "/regexpu-fixtures",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "regexpu-fixtures@2.1.4",
+    "name": "regexpu-fixtures",
+    "escapedName": "regexpu-fixtures",
+    "rawSpec": "2.1.4",
+    "saveSpec": null,
+    "fetchSpec": "2.1.4"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/regexpu-fixtures/-/regexpu-fixtures-2.1.4.tgz",
+  "_shasum": "2e735077895dc068f6124c869e2486d42839b0cd",
+  "_spec": "regexpu-fixtures@2.1.4",
+  "_where": "/home/xavier/dev/debian/src/pkg-js/packages/node-regexpu-core",
+  "author": {
+    "name": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/"
+  },
+  "bugs": {
+    "url": "https://github.com/mathiasbynens/regexpu-fixtures/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Test cases for the regexpu project. Possibly useful for other regular expression-related test suites.",
+  "files": [
+    "LICENSE-MIT.txt",
+    "fixtures.js"
+  ],
+  "homepage": "https://mths.be/regexpu",
+  "keywords": [
+    "codegen",
+    "desugaring",
+    "ecmascript",
+    "es5",
+    "es6",
+    "harmony",
+    "javascript",
+    "refactoring",
+    "regex",
+    "regexp",
+    "regular expressions",
+    "rewriting",
+    "syntax",
+    "transformation",
+    "transpile",
+    "transpiler",
+    "unicode"
+  ],
+  "license": "MIT",
+  "main": "fixtures.js",
+  "name": "regexpu-fixtures",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasbynens/regexpu-fixtures.git"
+  },
+  "scripts": {
+    "test": "node fixtures.js"
+  },
+  "version": "2.1.4"
+}
