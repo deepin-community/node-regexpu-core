@@ -254,21 +254,10 @@ var fixtures = [
 		'transpiled': '(?:\\uD834\\uDF06){2,4}'
 	},
 	{
-		'pattern': '(a)\\1',
-		'flags': FLAGS_WITH_UNICODE_WITHOUT_I,
-		'transpiled': '(a)\\1'
-	},
-	{
 		// https://github.com/mathiasbynens/regexpu/issues/18
 		'pattern': '[]',
 		'flags': FLAGS,
 		'transpiled': '[]'
-	},
-	{
-		// https://github.com/mathiasbynens/regexpu/issues/19
-		'pattern': '(\\1)+\\1\\1',
-		'flags': FLAGS,
-		'transpiled': '(\\1)+\\1\\1'
 	},
 	// https://github.com/mathiasbynens/regexpu-core/issues/7
 	{

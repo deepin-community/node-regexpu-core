@@ -1,0 +1,4 @@
+# Test data
+source-is-missing [*tests/tests.js*]
+source-contains-prebuilt-javascript-object [*tests/tests.js*]
+very-long-line-length-in-source-file *tests/tests.js*
